@@ -1,0 +1,66 @@
+{
+  "systemLogs": [
+    {
+      "id": "log_001",
+      "timestamp": "2025-01-15T16:45:00Z",
+      "level": "INFO",
+      "service": "Email Triage",
+      "message": "Processed 12 emails, 10 auto-routed, 2 pending review",
+      "details": "Confidence scores: 85% avg, 2 high-priority alerts sent",
+      "duration": "3.2s"
+    },
+    {
+      "id": "log_002", 
+      "timestamp": "2025-01-15T16:30:00Z",
+      "level": "WARN",
+      "service": "Voice Processing",
+      "message": "Call transcription quality below threshold (78%)",
+      "details": "Audio quality affected by background noise, manual review recommended",
+      "duration": "12.4s"
+    },
+    {
+      "id": "log_003",
+      "timestamp": "2025-01-15T16:15:00Z",
+      "level": "SUCCESS",
+      "service": "Slack Notifications",
+      "message": "Urgent alert delivered to #project-alerts",
+      "details": "Safety violation notification for Maple Street project delivered to 8 team members",
+      "duration": "0.8s"
+    },
+    {
+      "id": "log_004",
+      "timestamp": "2025-01-15T16:00:00Z",
+      "level": "ERROR",
+      "service": "OneDrive Sync",
+      "message": "Failed to create project folder: Permission denied",
+      "details": "Retry scheduled in 5 minutes, admin intervention may be required",
+      "duration": "timeout"
+    },
+    {
+      "id": "log_005",
+      "timestamp": "2025-01-15T15:45:00Z",
+      "level": "INFO",
+      "service": "Email Triage",
+      "message": "High-confidence spam detection activated",
+      "details": "Blocked 8 promotional emails, 1 potential phishing attempt",
+      "duration": "1.1s"
+    },
+    {
+      "id": "log_006",
+      "timestamp": "2025-01-15T15:30:00Z",
+      "level": "SUCCESS",
+      "service": "Project Binder",
+      "message": "Automated project folder creation completed",
+      "details": "Harbor View Condos project binder created with 4 initial documents",
+      "duration": "2.7s"
+    }
+  ],
+  "performanceMetrics": {
+    "systemUptime": "99.7%",
+    "averageResponseTime": "2.1s",
+    "memoryUsage": "67%",
+    "cpuUsage": "34%",
+    "activeConnections": 156,
+    "queuedTasks": 3
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "slackChannels": [
+    {
+      "id": "channel_001",
+      "name": "#project-alerts",
+      "webhook": "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX",
+      "active": true,
+      "alertTypes": ["urgent_calls", "high_priority_emails", "project_delays"]
+    },
+    {
+      "id": "channel_002", 
+      "name": "#bids-and-rfps",
+      "webhook": "https://hooks.slack.com/services/T00000000/B00000001/XXXXXXXXXXXXXXXXXXXXXXXX",
+      "active": true,
+      "alertTypes": ["new_bids", "proposal_deadlines"]
+    },
+    {
+      "id": "channel_003",
+      "name": "#general-updates",
+      "webhook": "https://hooks.slack.com/services/T00000000/B00000002/XXXXXXXXXXXXXXXXXXXXXXXX", 
+      "active": false,
+      "alertTypes": ["daily_summaries", "low_priority_updates"]
+    }
+  ],
+  "recentAlerts": [
+    {
+      "id": "alert_001",
+      "timestamp": "2025-01-15T14:25:00Z",
+      "channel": "#project-alerts",
+      "type": "urgent_call",
+      "message": "🚨 URGENT: Code violation found on Maple Street Renovation. Electrical work needs immediate attention. 2-3 week delay expected.",
+      "projectName": "Maple Street Renovation",
+      "status": "sent"
+    },
+    {
+      "id": "alert_002",
+      "timestamp": "2025-01-15T09:35:00Z", 
+      "channel": "#bids-and-rfps",
+      "type": "new_bid",
+      "message": "💰 New RFP: Downtown Seattle Office Building ($2.5-3.2M). Proposals due Feb 15th. Auto-routed to Bids folder.",
+      "projectName": "Downtown Seattle Office",
+      "status": "sent"
+    },
+    {
+      "id": "alert_003",
+      "timestamp": "2025-01-15T16:50:00Z",
+      "channel": "#project-alerts", 
+      "type": "pending_review",
+      "message": "⚠️ Email needs manual review: Meeting follow-up from ABC Consulting (65% confidence). Check Sort Me folder.",
+      "projectName": "Harbor View Condos",
+      "status": "pending"
+    }
+  ]
+}

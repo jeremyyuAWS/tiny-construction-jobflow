@@ -1,0 +1,39 @@
+{
+  "emailProcessing": {
+    "totalProcessed": 1247,
+    "thisWeek": 156,
+    "today": 24,
+    "averageConfidence": 84.5,
+    "autoRoutedPercentage": 78,
+    "manualReviewPercentage": 22,
+    "processingTimeAvg": "2.3 seconds",
+    "accuracyRate": 94.8
+  },
+  "callProcessing": {
+    "totalProcessed": 342,
+    "thisWeek": 28,
+    "today": 4,
+    "averageConfidence": 89.2,
+    "transcriptionAccuracy": 92.1,
+    "averageDuration": "6m 42s",
+    "urgentCallsDetected": 12,
+    "actionItemsExtracted": 134
+  },
+  "slackNotifications": {
+    "totalSent": 892,
+    "thisWeek": 67,
+    "today": 8,
+    "deliveryRate": 98.7,
+    "responseRate": 76.3,
+    "urgentAlerts": 45,
+    "averageResponseTime": "4m 23s"
+  },
+  "projectBinders": {
+    "activeProjects": 12,
+    "archivedProjects": 38,
+    "totalDocuments": 2847,
+    "averageDocumentsPerProject": 237,
+    "lastExport": "2025-01-14T10:30:00Z",
+    "storageUsed": "2.4 GB"
+  }
+}

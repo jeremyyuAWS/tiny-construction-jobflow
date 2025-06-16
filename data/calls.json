@@ -1,0 +1,43 @@
+{
+  "calls": [
+    {
+      "id": "call_001",
+      "caller": "Mike Johnson - West Coast Development",
+      "duration": "8:42",
+      "timestamp": "2025-01-15T10:30:00Z",
+      "transcription": "Hi Tom, this is Mike from West Coast Development. I wanted to follow up on the RFP we sent over this morning for the downtown Seattle office building. The timeline is pretty tight - we need proposals by February 15th, but I think this could be a great fit for Tiny's Construction given your track record with commercial projects. The budget range is between 2.5 and 3.2 million. There are some unique structural requirements because of the soil conditions downtown, but nothing you guys haven't handled before. Can we schedule a site visit next week?",
+      "summary": "Follow-up call regarding downtown Seattle office building RFP. Budget $2.5-3.2M, proposals due Feb 15th. Requesting site visit next week.",
+      "tags": ["bid_opportunity", "site_visit_required", "commercial"],
+      "projectName": "Downtown Seattle Office",
+      "urgency": "medium",
+      "actionItems": ["Schedule site visit", "Review soil conditions", "Prepare proposal"],
+      "confidence": 94
+    },
+    {
+      "id": "call_002",
+      "caller": "Sarah Chen - City Planning",
+      "duration": "12:15",
+      "timestamp": "2025-01-15T14:20:00Z", 
+      "transcription": "Tom, this is Sarah from the city planning department. I have some concerning news about the Maple Street renovation project. The inspector found some issues with the electrical work that was completed last week. It's not up to current code and we're going to need you to bring in a certified electrician to redo sections 3 through 7. This is going to delay the project by at least two weeks, maybe three. I know this isn't what you want to hear, especially with the client breathing down our necks, but we can't proceed until this is fixed. The good news is that everything else looks great - plumbing, structural, all passed with flying colors.",
+      "summary": "Code violation found in electrical work on Maple Street project. Sections 3-7 need to be redone by certified electrician. 2-3 week delay expected.",
+      "tags": ["code_violation", "project_delay", "electrical_issue", "urgent"],
+      "projectName": "Maple Street Renovation", 
+      "urgency": "high",
+      "actionItems": ["Contact certified electrician", "Notify client of delay", "Reschedule timeline"],
+      "confidence": 96
+    },
+    {
+      "id": "call_003",
+      "caller": "Unknown Number",
+      "duration": "2:33",
+      "timestamp": "2025-01-15T16:10:00Z",
+      "transcription": "Yeah, hi, I'm calling about some construction work. I think I have the wrong number. Are you guys the ones working on the bridge project downtown? No? Okay, sorry about that.",
+      "summary": "Wrong number - caller looking for different construction company regarding bridge project.",
+      "tags": ["wrong_number", "bridge_project"],
+      "projectName": null,
+      "urgency": "low", 
+      "actionItems": [],
+      "confidence": 85
+    }
+  ]
+}
